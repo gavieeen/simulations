@@ -52,3 +52,44 @@ for a in random_inputs:
     print(f"Average time for method_append for input of length {len(a)} with max value {max(a)}: {avg_time_append:.6f} seconds")
     print(f"Average time for method_concat for input of length {len(a)} with max value {max(a)}: {avg_time_concat:.6f} seconds")
     print("-" * 60)
+    
+# Average time for method_itertools for input of length 485 with max value 1000: 0.009555 seconds
+# Average time for method_append for input of length 485 with max value 1000: 0.009001 seconds
+# Average time for method_concat for input of length 485 with max value 1000: 0.043746 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 35 with max value 961: 0.000051 seconds
+# Average time for method_append for input of length 35 with max value 961: 0.000051 seconds
+# Average time for method_concat for input of length 35 with max value 961: 0.000228 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 44 with max value 995: 0.000077 seconds
+# Average time for method_append for input of length 44 with max value 995: 0.000077 seconds
+# Average time for method_concat for input of length 44 with max value 995: 0.000377 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 730 with max value 1000: 0.020162 seconds
+# Average time for method_append for input of length 730 with max value 1000: 0.021084 seconds
+# Average time for method_concat for input of length 730 with max value 1000: 0.107805 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 668 with max value 996: 0.016441 seconds
+# Average time for method_append for input of length 668 with max value 996: 0.018538 seconds
+# Average time for method_concat for input of length 668 with max value 996: 0.082928 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 406 with max value 997: 0.006173 seconds
+# Average time for method_append for input of length 406 with max value 997: 0.006255 seconds
+# Average time for method_concat for input of length 406 with max value 997: 0.031062 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 282 with max value 998: 0.002976 seconds
+# Average time for method_append for input of length 282 with max value 998: 0.002905 seconds
+# Average time for method_concat for input of length 282 with max value 998: 0.014913 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 580 with max value 1000: 0.012571 seconds
+# Average time for method_append for input of length 580 with max value 1000: 0.013036 seconds
+# Average time for method_concat for input of length 580 with max value 1000: 0.062556 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 94 with max value 993: 0.000334 seconds
+# Average time for method_append for input of length 94 with max value 993: 0.000330 seconds
+# Average time for method_concat for input of length 94 with max value 993: 0.001698 seconds
+# ------------------------------------------------------------
+# Average time for method_itertools for input of length 575 with max value 1000: 0.012433 seconds
+# Average time for method_append for input of length 575 with max value 1000: 0.013021 seconds
+# Average time for method_concat for input of length 575 with max value 1000: 0.062028 seconds
+# ------------------------------------------------------------
