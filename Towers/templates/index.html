@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Puzzle Solver</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Tower Puzzle Solver</h1>
+    <form id="towerForm">
+        <label for="initialTowers">Initial Towers (JSON format):</label><br>
+        <textarea id="initialTowers" required></textarea><br>
+        
+        <label for="goalTowers">Goal Towers (JSON format):</label><br>
+        <textarea id="goalTowers" required></textarea><br>
+        
+        <label for="algorithm">Select Algorithm:</label>
+        <select id="algorithm">
+            <option value="a_star">A* Search</option>
+            <option value="bfs">Breadth-First Search</option>
+            <option value="greedy">Greedy Search</option>
+        </select><br><br>
+        
+        <button type="submit">Solve</button>
+    </form>
+    
+    <h2>Results</h2>
+    <pre id="results"></pre>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
