@@ -67,7 +67,8 @@ q = deque([(len(commands), 0)])
 while q:
     pos, a = q.popleft()
     for i in range(8):
-        n_a = a*8 + i
+        n_a = (
+            a << 3) + i
         o = list(map(int, runProgram(operands, commands, n_a)))
         if o == commands[pos-1:]:
             q.append((pos - 1, n_a))
