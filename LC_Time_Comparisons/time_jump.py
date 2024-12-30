@@ -24,7 +24,8 @@ test_cases = [
     [0],              # Expected True (single element)
     [1, 0, 1, 0],     # Expected False
     [1]*10000,        # Large test case (Expected True)
-    [1]*10000 + [0] + [1]  # Large test case (Expected False)
+    [1]*10000 + [0] + [1],  # Large test case (Expected False)
+    [1] + [0] + [1]*10000
 ]
 
 def test_canJump1():
